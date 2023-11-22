@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: #A0DE7B;
+}
+div.registration .container{
+    max-width: 500px;
+    padding-left: 450px;
+    padding-top: 180px;
+}
+div.registration .container h1{
+    display: flex;
+    justify-content: center;
+    font-family: ui-sans-serif;
+}
+div.registration .container input{
+    display: flex;
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    border-block-color: white;
+    background-color: gainsboro;
+    font-family: revert;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: larger;
+}
+div.but{
+    display: flex;
+    justify-content: space-around;
+}
+div.but button{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+section.aboutus .heading{
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+}
+
+div.login .container{
+    max-width: 600px;
+    padding-left: 400px;
+    padding-top: 70px;
+}
+div.login .info h3{
+    font-style: inherit;
+    font-size: larger;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+div.login .info img{
+    max-width: 500px;
+    max-height: 250px;
+    display: flex;
+    padding-left: 130px;
+    margin-bottom: 20px;
+    background-color: #A0DE7B;
+}
+div.login .inpt{
+    padding-left: 50px;
+}
+div.login .inpt input{
+    display: flex;
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    border-block-color: white;
+    background-color: gainsboro;
+    font-family: revert;
+    margin-bottom: 20px;
+    font-style: inherit;
+    font-size: larger;
+    padding-left: 20px;
+}
+div.login .inpt .but button{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+div.login .container .reg{
+    font-family: sans-serif;
+    padding-left: 180px;
+    padding-top: 25px;
+}
+
+section.aboutus .heading {
+    display: flex;
+    justify-content: center
+}
+
+section.aboutus .container{
+    display: flex;
+    justify-content: space-around;
+}
+section.aboutus .info{
+    padding-left: 50px;
+}
+section.aboutus .block .info{
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+div.bottom p{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: sans-serif;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+div.bottom{
+    border: 2px solid gray;
+}

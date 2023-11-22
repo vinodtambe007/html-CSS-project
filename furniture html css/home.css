@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+section.nav{
+    background-color: #A0DE7B;
+}
+section.nav .navbar ul li button{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+section.nav .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui;
+}
+section.nav .navbar ul li{
+    list-style-type: none;
+    padding-right: 50px;
+}
+section.nav .navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+section.nav .upper{
+
+    display: flex;
+    justify-content: space-between;
+}
+section.nav .info .info-1{
+    font-size: 50px;
+    padding-left: 25px;
+}
+section.nav .info .info-2 p{
+    font-size: 20px;
+    font-family: math;
+    color: grey;
+    padding-left: 25px;
+}
+section.nav .lower{
+    display: flex;
+}
+section.nav .lower .image{
+    padding-left: 35px;
+    padding-top: 50px;
+}
+section.nav .info button{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-family: cursive;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+section.products{
+    display: flex;
+    justify-content: space-around;
+}
+section .product{
+    max-width: 300px;
+    max-height: 350px;
+    background-color: #F1F1F1;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-top: 15px;
+    
+}
+section .product img{
+    max-width: 255px;
+    max-height: 255px;
+}
+section .product h3{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+section .product h2{
+    display: flex;
+    justify-content: center;
+}
